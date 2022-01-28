@@ -1,107 +1,193 @@
 # JavaScript ES5 Features & Examples
 
-## Topics:
+## _Overview of new additions in ES5_
 
-### Operators
+### Using "strict mode"
 
-### Control Flow: if...else
+_Read More:_ [Strict Mode](https://www.w3schools.com/js/js_strict.asp)
 
-### Control Flow:
+It would be best to use strict mode, because of these benefits:
 
-### Control Flow:
+- Prevents undeclared variables.
+  - Previously, if you mistyped a variable name, the result was simply a new 'global' variable being declared, which introduces bugs. Global variables by the way, are a no-no. There does not need to be global variable declarations in your app, and if you do require them then that situation probably points to poor design anyway.
+  - example:
 
-### Control Flow:
+```javascript
+"use strict";
+foo = 123; //result will be an error
+```
 
-### Control Flow:
+- Prevents assigning values to a non-writable property. In normal JavaScript you will not get an error message, but strict mode will throw an error.
 
-### Arrays:
+```javascript
+"use strict";
+const foo = {
+  get bar() {
+    return "baz";
+  },
+};
+foo.bar = "qux"; //this will cause an error
+```
 
-### Arrays:
+- Deleting a variable is not allowed
 
-### Arrays:
+```javascript
+"use strict";
+var foo = "bar";
+delete foo; //this will cause an error
+```
 
-### Arrays:
+- Deleting a variable or function is not allowed
 
-### Arrays:
+```javascript
+"use strict";
+var foo = 5;
+delete foo; //this will cause an error
+function bar(a1) {}
+delete bar; //this will cause an error
+```
 
-### Arrays:
+- Duplicating a parameter name is not allowed
 
-### Arrays:
+```javascript
+"use strict";
+function foo(x1, x1) {} //this will cause an error
+```
 
-### Arrays:
+- The `this` keyword behaves differently. The `this` keyword refers to the object that called the function. If the object is not specified, functions in strict mode will return `undefined` and functions in normal mode will return the global object(window);
 
-### Functions:
+```javascript
+"use strict";
+function foo() {
+  console.log(this); //this will log "undefined"
+}
+foo();
+```
 
-### Functions:
+- Future Proof - Keywords reserved for future JS versions can NOT be used as variable names
+  - Implements
+  - interface
+  - let
+  - package
+  - private
+  - protected
+  - public
+  - static
+  - yield
+  -
 
-### Functions:
+#### JSON support
 
-### Functions:
+#### String.trim()
 
-### Functions:
+#### Array.isArray()
 
-### Functions:
+#### Array iteration methods
 
-### Functions:
+#### Trailing commas for object literals
 
-### Functions:
+## _Topics:_
 
-### Objects:
+#### Operators
 
-### Objects:
+#### Control Flow: if...else
 
-### Objects:
+#### Control Flow:
 
-### Objects:
+#### Control Flow:
 
-### Objects:
+#### Control Flow:
 
-### Objects:
+#### Control Flow:
 
-### Objects:
+#### Arrays:
 
-### Objects:
+#### Arrays:
 
-### Objects:
+#### Arrays:
 
-### Objects:
+#### Arrays:
 
-### Objects:
+#### Arrays:
 
-### Objects:
+#### Arrays:
 
-### Prototypes:
+#### Arrays:
 
-### Prototypes:
+#### Arrays:
 
-### Prototypes:
+#### Functions:
 
-### Prototypes:
+#### Functions:
 
-### Prototypes:
+#### Functions:
 
-### Prototypes:
+#### Functions:
 
-### Prototypes:
+#### Functions:
 
-### Prototypical Inheritance:
+#### Functions:
 
-### Prototypical Inheritance:
+#### Functions:
 
-### Prototypical Inheritance:
+#### Functions:
 
-### Prototypical Inheritance:
+#### Objects:
 
-### Prototypical Inheritance:
+#### Objects:
 
-### Prototypical Inheritance:
+#### Objects:
 
-### Prototypical Inheritance:
+#### Objects:
 
-### Prototypical Inheritance:
+#### Objects:
 
-### Prototypical Inheritance:
+#### Objects:
 
-### Prototypical Inheritance:
+#### Objects:
+
+#### Objects:
+
+#### Objects:
+
+#### Objects:
+
+#### Objects:
+
+#### Objects:
+
+#### Prototypes:
+
+#### Prototypes:
+
+#### Prototypes:
+
+#### Prototypes:
+
+#### Prototypes:
+
+#### Prototypes:
+
+#### Prototypes:
+
+#### Prototypical Inheritance:
+
+#### Prototypical Inheritance:
+
+#### Prototypical Inheritance:
+
+#### Prototypical Inheritance:
+
+#### Prototypical Inheritance:
+
+#### Prototypical Inheritance:
+
+#### Prototypical Inheritance:
+
+#### Prototypical Inheritance:
+
+#### Prototypical Inheritance:
+
+#### Prototypical Inheritance:
 
 ###
