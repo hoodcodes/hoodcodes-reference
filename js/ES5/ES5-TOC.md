@@ -6,7 +6,7 @@
 
 _Read More:_ [Strict Mode](https://www.w3schools.com/js/js_strict.asp)
 
-It would be best to use strict mode, because of these benefits:
+It would be best to use strict mode. Here are some of the main benefits, although the link above gives more exhaustive list:
 
 - Prevents undeclared variables.
   - Previously, if you mistyped a variable name, the result was simply a new 'global' variable being declared, which introduces bugs. Global variables by the way, are a no-no. There does not need to be global variable declarations in your app, and if you do require them then that situation probably points to poor design anyway.
@@ -77,6 +77,27 @@ foo();
   -
 
 #### JSON support
+
+JSON is a format for creating JavaScript objects, and it uses JavaScript syntax.
+
+- Data is in name/value pairs.
+- Data is separated by commas.
+- Curly braces hold objects.
+- Square brackets hold arrays.
+
+JSON Example:
+
+```json
+{
+  "name": "John Doe",
+  "profession": "cat herder",
+  "awards": [
+    "2005 Cat Herder Maricopa County Champion",
+    "2008 Cat Herder National Champion"
+  ],
+  "favorite cat": "Sphynx"
+}
+```
 
 #### String.trim()
 
