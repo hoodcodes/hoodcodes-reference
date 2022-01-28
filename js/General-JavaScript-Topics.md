@@ -12,7 +12,6 @@ New for ES5 (2009), is the `strict mode`. Just use strict mode because it preven
 - [Chai](https://www.chaijs.com/)
 - [Jasmine](https://jasmine.github.io/)
 - [Cucumber.js](https://cucumber.io/docs/installation/javascript/)
--
 
 ### Language Specifications for each JavaScript version
 
