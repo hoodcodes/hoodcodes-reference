@@ -6,9 +6,9 @@ This is an opinionated reference on the Java language, however for clarification
 
 Steps:
 
-1. Install the JDK if you don't have installed it, [download the JDK](https://www.oracle.com/java/technologies/downloads/) and install it.
-1. Set path of the jdk/bin directory. http://www.javatpoint.com/how-to-set-path-in-java
-1. Create the Java program
-1. Compile and run the Java program
+1. Install the JDK if you don't have installed it, [install the JDK](https://www.oracle.com/java/technologies/downloads/).
+2. Set path of the jdk/bin directory. http://www.javatpoint.com/how-to-set-path-in-java
+3. Create the Java program
+4. Compile and run the Java program
 
 ### <span style="color: green">Running your first Java program</span>

@@ -13,7 +13,7 @@ New for ES5 (2009), is the `strict mode`. Just use strict mode because it preven
 - [Jasmine](https://jasmine.github.io/)
 - [Cucumber.js](https://cucumber.io/docs/installation/javascript/)
 
-##### Check out the Testing Folder content
+_Check out the Testing Folder content_
 
 ### Language Specifications for each JavaScript version
 

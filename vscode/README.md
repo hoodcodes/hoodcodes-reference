@@ -8,5 +8,5 @@ From the CLI you can run this command to compare 2 files in VSCode:
 - example: run this in CLI at this folder location:
 
 ```
-code --diff ./diff1.js ./diff2.js
+code --diff ./assets/diff1.js ./assets/diff2.js
 ```
