@@ -50,7 +50,6 @@ const App () => {
 
 {
   "company": "The Code Garage",
-  "
 }
 ```
 

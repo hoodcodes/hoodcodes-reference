@@ -21,3 +21,11 @@ Of course these are all optional, depending on whether or not you are interested
   - Install [Node](https://nodejs.org/en/)
 - TypeScript
   - Install Typescript using NPM or Yarn (e.g. $ npm install -g typescript)
+
+### Cloud Training
+
+Each of the major cloud providers generally has free training available to help you prepare for their certification exams:
+
+- [Free AWS Certified Developer Training](https://explore.skillbuilder.aws/learn/public/learning_plan/view/84/developer-learning-plan?dt=sec&sec=lp)
+- [Free Azure Certified Developer Training]()
+- [Google Cloud Developer Training]()
