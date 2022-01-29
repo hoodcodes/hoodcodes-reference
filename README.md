@@ -26,6 +26,9 @@ Of course these are all optional, depending on whether or not you are interested
 
 Each of the major cloud providers generally has free training available to help you prepare for their certification exams:
 
-- [Free AWS Certified Developer Training](https://explore.skillbuilder.aws/learn/public/learning_plan/view/84/developer-learning-plan?dt=sec&sec=lp)
-- [Free Azure Certified Developer Training]()
-- [Google Cloud Developer Training]()
+- [Free AWS Sill Builder Training](https://explore.skillbuilder.aws/learn)
+  - [Developer Learning Plan](https://explore.skillbuilder.aws/learn/public/learning_plan/view/84/developer-learning-plan)
+- [Microsoft Learn: Free Azure Certified Developer Training](https://docs.microsoft.com/en-us/learn/azure/)
+  - [Developer Learning Paths](https://docs.microsoft.com/en-us/learn/roles/developer)
+- [Google Cloud Training](https://community.c2cglobal.com/product-updates)
+  - [Google Cloud Developer Training](https://docs.microsoft.com/en-us/learn/roles/developer)
