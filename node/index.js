@@ -1,3 +1,4 @@
-#!/usr/bin/env node
+include("./util.js");
 
-console.log("Hello!");
+let fullName = getFullName("John", "Doe");
+console.log($`Hello {fullName}`);
