@@ -24,7 +24,7 @@ Of course these are all optional, depending on whether or not you are interested
 
 ### Cloud Training
 
-Each of the major cloud providers generally has free training available to help you prepare for their certification exams:
+Each of the major cloud providers have free training available to help you prepare for their certification exams:
 
 - [Free AWS Sill Builder Training](https://explore.skillbuilder.aws/learn)
   - [Developer Learning Plan](https://explore.skillbuilder.aws/learn/public/learning_plan/view/84/developer-learning-plan)
