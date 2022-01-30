@@ -20,7 +20,7 @@ Of course these are all optional, depending on whether or not you are interested
 - JavaScript
   - Install [Node](https://nodejs.org/en/)
 - TypeScript
-  - Install Typescript using NPM or Yarn (e.g. $ npm install -g typescript)
+  - Install Typescript using NPM or Yarn (`npm install -g typescript`)
 
 ### Cloud Training
 
