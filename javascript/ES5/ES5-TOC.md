@@ -2,7 +2,9 @@
 
 ## _Overview of new additions in ES5_
 
-### Using "strict mode"
+#### New Features
+
+##### Using "strict mode"
 
 _Read More:_ [Strict Mode](https://www.w3schools.com/js/js_strict.asp)
 
@@ -76,7 +78,7 @@ foo();
   - yield
   -
 
-#### JSON support
+###### JSON support
 
 JSON is a format for creating JavaScript objects, and it uses JavaScript syntax.
 
