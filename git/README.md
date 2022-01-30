@@ -41,3 +41,21 @@
 ### Branching Strategies
 
 ### Hooks
+
+### Stashing
+
+Stashing your work is a valuable tool. You can create named stashes and then retrieve them.
+
+to create a named stash:
+`git stash push -m "my_stash"`
+
+to list all your stashes:
+`git stash list`
+
+to apply a stash and remove it from the stash stack:
+`git stash pop stash@{n}`
+
+to apply a stash and keep it in the stash stack:
+`git stash apply stash@{n}`
+
+where `n` is the index of the stashed change
